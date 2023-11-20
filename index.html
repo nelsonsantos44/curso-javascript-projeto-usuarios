@@ -244,13 +244,13 @@
               <div class="box-body">
                 <div class="form-group">
                   <label for="exampleInputName">Nome</label>
-                  <input type="text" class="form-control" id="exampleInputName" placeholder="Digite o nome do usuário" name="name">
+                  <input type="text" class="form-control" id="exampleInputName" placeholder="Digite o nome do usuário" name="name" value = "teste">
                 </div>
                 <div class="form-group">
                   <label>Gênero</label>
                   <div class="radio">
                     <label for="exampleInputGenderM">
-                      <input type="radio" id="exampleInputGenderM" name="gender">
+                      <input type="radio" id="exampleInputGenderM" name="gender" checked >
                       Masculino</label>
                   </div>
                   <div class="radio">
@@ -266,7 +266,7 @@
                 <div class="form-group">
                   <label for="exampleInputCountry">País</label>
                   <select class="form-control" id="exampleInputCountry" name="country">
-                    <option value="" selected="selected">Selecione um país</option>
+                    <option value="">Selecione um país</option>
                     <option value="United States">United States</option>
                     <option value="United Kingdom">United Kingdom</option>
                     <option value="Afghanistan">Afghanistan</option>
@@ -298,7 +298,7 @@
                     <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
                     <option value="Botswana">Botswana</option>
                     <option value="Bouvet Island">Bouvet Island</option>
-                    <option value="Brazil">Brasil</option>
+                    <option value="Brazil" selected="selected" >Brasil</option>
                     <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
                     <option value="Brunei Darussalam">Brunei Darussalam</option>
                     <option value="Bulgaria">Bulgaria</option>
@@ -511,12 +511,12 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">E-mail</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o e-mail" name="email">
+                  <label for="exampleInputEmail">E-mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail" placeholder="Digite o e-mail" name="email">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Crie uma senha" name="password">
+                  <label for="exampleInputPassword">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword" placeholder="Crie uma senha" name="password">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputFile">Foto</label>
@@ -524,7 +524,7 @@
                 </div>
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox" name="admin"> Administrador
+                    <input type="checkbox" name="admin" id="exampleInputAdmin"> Administrador
                   </label>
                 </div>
               </div>
@@ -554,6 +554,9 @@
   </footer>
 
 </div>
+
+  <script src="index.js">
+  </script>
 
 </body>
 </html>
